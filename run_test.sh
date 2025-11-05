@@ -19,10 +19,6 @@ fi
 info "Activating conda environment '$ENV_NAME'..."
 conda activate "$ENV_NAME"
 
-# === Run model training ===
-# info "🚀 Starting model training..."
-# python model_LBC_AWGN.py
-
 # === Run model testing ===
 info "📊 Running model testing..."
 python test_model_LBC_AWGN.py
