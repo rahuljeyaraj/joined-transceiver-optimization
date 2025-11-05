@@ -5,10 +5,6 @@ cd ~/phd
 rm -rf joined-transceiver-optimization
 git clone https://github.com/rahuljeyaraj/joined-transceiver-optimization.git
 cd joined-transceiver-optimization
-```
-
-Make all scripts executable
-```
 chmod +x *.sh
 ```
 
