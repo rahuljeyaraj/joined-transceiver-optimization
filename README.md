@@ -1,22 +1,34 @@
-## One time
-### Clone the repository
+### One time setup
+Clone the repository
+```
 cd ~/phd
 rm -rf joined-transceiver-optimization
 git clone https://github.com/rahuljeyaraj/joined-transceiver-optimization.git
 cd joined-transceiver-optimization
+```
 
-### Make all scripts executable
+Make all scripts executable
+```
 chmod +x *.sh
+```
 
-### Fresh Conda installation
+Fresh Conda installation
+```
 ./setup_conda.sh
+```
 
-### Fresh environment creation
+Fresh environment creation
+```
 ./create_env.sh
+```
 
-## Execution
-### Run model training
+### Execution
+Run model training
+```
 ./run_model.sh
+```
 
-### Run testing
+Run testing
+```
 ./run_test.sh
+```
