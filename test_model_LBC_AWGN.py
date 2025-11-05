@@ -30,7 +30,7 @@ n = 1
 R = k/n
 
 # Eb/N0 used for training(load_weights)
-train_Eb_dB = 7
+train_Eb_dB = 9
 
 # Number of messages used for test, each size = k*L
 batch_size = 64

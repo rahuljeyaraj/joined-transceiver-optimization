@@ -28,6 +28,7 @@ info "📦 Installing dependencies..."
 conda install -y pip
 pip install --upgrade pip
 pip install numpy==1.15.4 keras==2.2.4 tensorflow==1.13.1 protobuf==3.20.3 matplotlib==3.0.3
+pip install "h5py==2.10.0" --force-reinstall
 
 # 5️⃣ Confirm installation
 info "✅ Environment '$env_name' created successfully with all dependencies."
